@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="blogger styles.css">
+</head>
+<body>
+<div class="main">
+   <div class="logo"><a href="a"><span>B</span>logger</a></div>
+    <div class="button">
+    <a href="#blog" class="btn" >MY BLOG </a>
+    </div>
+    <div class="image" id="image-drag">
+      <img src="C:\Users\Gutti bhargavi\OneDrive\Pictures\Saved Pictures\Backgrounds.jpeg" alt="">
+    </div>
+</div>
+<section id="blog">
+  <!--heading---------------------->
+  <div class="blog.heading">
+  <h1> My Recent posts</h1>
+  </div>
+  <!--blog-container------->
+  <div class="blog-container">
+      <!--box-1----------->
+      <div class="blog-box">
+          <!---img--------->
+          <div class="blog-img" id="blog1-drag">
+              <img src="C:\Users\Gutti bhargavi\OneDrive\Pictures\Saved Pictures\moonlight.jpg"alt="Blog">
+          </div>
+          <!--text--------->
+          <div class="blog-text">
+          <span>23 may 2023</span>
+          <a href="#" class="blog-title"><h3>MOONLIT<span>&#127773</span></h3></a>
+          <p>The brightest and largest object in our night sky, the Moon makes Earth a more livable planet by moderating our home planet's wobble on its axis, leading to a relatively stable climate. It also causes tides, creating a rhythm that has guided humans for thousands of years.</p>
+          <p> We see it shining it a night by the light which the sun reflects on it. The moon is a beautiful satellite that everyone admires for its beauty. Moreover, the bright moonlight is soothing for all of us. It makes the earthly objects shine like silver in the moonlight.</p>
+      </div>
+      <!--box-2----------->
+      <div class="blog-box">
+          <!---img--------->
+          <div class="blog-img" id="blog2-drag">
+              <img src="C:\Users\Gutti bhargavi\OneDrive\Pictures\Saved Pictures\water leaf.jpg" alt="Blog">
+          </div>
+          <!--text--------->
+          <div class="blog-text">
+          <span>24 may 2023</span>
+          <a href="#" class="blog-title"><h3>EVERY DROP COUNTS!!<span>&#128167</span></h3></a>
+          <p>Water is a tiny molecule. It consists of three atoms : two of hydrogen and one of oxygen. Water molecules cling to each other because of a force called hydrogen bonding. It's the reason why water can do amazing things.</p>
+          <p>Water is very important for your body
+            Water travels throughout your body carrying nutrients, oxygen, and wastes to and from your cells and organs. Water keeps your body cool as part of your body's temperature regulating system. Water cushions your joints, and protects your tissues and organs from shock and damage.</p>
+      </div>
+      <!--box-3----------->
+      <div class="blog-box">
+          <!---img--------->
+          <div class="blog-img" id="blog3-drag">
+              <img src="C:\Users\Gutti bhargavi\OneDrive\Pictures\Saved Pictures\forest.jpg" alt="Blog">
+          </div>
+          <!--text--------->
+          <div class="blog-text">
+          <span>25 may 2023</span>
+          <a href="#" class="blog-title"><h3>PLANT A HOPE FOR FUTURE<span>&#127794</span></h3></a>
+          <p>Trees play a significant role in reducing erosion and moderating the climate. They remove carbon dioxide from the atmosphere and store large quantities of carbon in their tissues. Trees and forests provide a habitat for many species of animals and plants.</p>
+          <p>Trees contribute to their environment by providing oxygen, improving air quality, climate amelioration, conserving water, preserving soil, and supporting wildlife. During the process of photosynthesis, trees take in carbon dioxide and produce the oxygen we breathe.
+        </p>
+      </div>
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/draggabilly/3.0.0/draggabilly.pkgd.min.js"></script>
+<script>
+    let el=document.getElementById('image-drag');
+    let drag= new Draggabilly(el);
+</script>
+<script>
+    let bl=document.getElementById('blog1-drag');
+    let drag1= new Draggabilly(bl);
+</script>
+<script>
+    let al=document.getElementById('blog2-drag');
+    let drag2= new Draggabilly(al);
+</script>
+<script>
+    let cl=document.getElementById("blog3-drag");
+    let drag3= new Draggabilly(cl);
+</script>
+</body>
+</html>
+    
